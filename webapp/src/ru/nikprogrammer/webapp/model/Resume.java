@@ -11,5 +11,4 @@ public class Resume {
     private String fullName;
     private String location;
     List<Contact> contactList = new ArrayList<>();
-
 }
