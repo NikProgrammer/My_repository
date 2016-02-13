@@ -43,5 +43,6 @@ public class Link {
         int result = name.hashCode();
         result = 31 * result + (url != null ? url.hashCode() : 0);
         return result;
+        
     }
 }
