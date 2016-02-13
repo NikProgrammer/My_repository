@@ -37,6 +37,7 @@ public class Link {
                 '}';
     }
 
+
     @Override
     public int hashCode() {
         int result = name.hashCode();

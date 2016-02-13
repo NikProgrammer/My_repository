@@ -12,6 +12,7 @@ public class Contact {
         return type;
     }
 
+
     public String getValue() {
         return value;
     }

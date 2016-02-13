@@ -5,4 +5,5 @@ package ru.nikprogrammer.webapp.model;
  * 13.02.2016.
  */
 public class Sections {
+
 }
