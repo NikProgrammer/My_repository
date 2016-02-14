@@ -10,6 +10,7 @@ import java.util.List;
 public class Resume {
     private String fullName;
     private String location;
-    List<Contact> contactList = new ArrayList<>();
-
+    private String homePage;
+    private List<Contact> contactList = new ArrayList<>();
+    private List<Sections> sections;
 }

@@ -11,8 +11,6 @@ public class Contact {
     public String getType() {
         return type;
     }
-
-
     public String getValue() {
         return value;
     }

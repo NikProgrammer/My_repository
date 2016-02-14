@@ -5,8 +5,14 @@ package ru.nikprogrammer.webapp.model;
  * 08.02.2016.
  */
 public class Link {
+    public static final Link EMPTY = new Link();
+
     private final String name;
     private final String url;
+
+    public Link(){
+        this("", null);
+    }
 
     public Link(String name, String url) {
         this.name = name;
