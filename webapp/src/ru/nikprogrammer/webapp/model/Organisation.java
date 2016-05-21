@@ -1,17 +1,21 @@
 package ru.nikprogrammer.webapp.model;
 
+import java.util.List;
+
 /**
  * Nikolay
  * 13.02.2016.
  */
 public class Organisation {
-    private final String name;
+    private Link link;
 
-    public String getName() {
-        return name;
+    List<OrganizationPeriod> period;
+
+    public Link getLink() {
+        return link;
     }
 
-    public Organisation(String name) {
-        this.name = name;
+    public Organisation(Link name) {
+        this.link = name;
     }
 }

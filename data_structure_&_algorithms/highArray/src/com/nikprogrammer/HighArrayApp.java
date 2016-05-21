@@ -23,6 +23,7 @@ public class HighArrayApp {
         arr.insert(66);
         arr.insert(33);
 
+
         for (int i = 0; i < maxSize; i++){
             sortArr.insert(arr.getMax());
             arr.removeMax();
